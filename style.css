@@ -1,4 +1,5 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 *{
     margin: 0;
@@ -19,7 +20,7 @@ a{
     display: inline-block;
     padding: 25px 30px;
     margin: 40px 0;
-    color: #03e9f4;
+    color: #ff1616;
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.5s;
@@ -29,12 +30,12 @@ a{
    
 }
 a:hover{
-    background: #03e9f4;
+    background: #ff1616;
     color: #050801;
-    box-shadow: 0 0 5px #03e9f4,
-                0 0 25px #03e9f4,
-                0 0 50px #03e9f4,
-                0 0 200px #03e9f4;
+    box-shadow: 0 0 5px #ff1616,
+                0 0 25px #ff1616,
+                0 0 50px #ff1616,
+                0 0 200px #ff1616;
      -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
 }
 a:nth-child(1){
@@ -52,7 +53,7 @@ a span:nth-child(1){
     left: 0;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg,transparent,#03e9f4);
+    background: linear-gradient(90deg,transparent,#ff1616);
     animation: animate1 1s linear infinite;
 }
 @keyframes animate1{
@@ -68,7 +69,7 @@ a span:nth-child(2){
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg,transparent,#03e9f4);
+    background: linear-gradient(180deg,transparent,#ff1616);
     animation: animate2 1s linear infinite;
     animation-delay: 0.25s;
 }
@@ -85,7 +86,7 @@ a span:nth-child(3){
     right: 0;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg,transparent,#03e9f4);
+    background: linear-gradient(270deg,transparent,#ff1616);
     animation: animate3 1s linear infinite;
     animation-delay: 0.50s;
 }
@@ -104,7 +105,7 @@ a span:nth-child(4){
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg,transparent,#03e9f4);
+    background: linear-gradient(360deg,transparent,#ff1616);
     animation: animate4 1s linear infinite;
     animation-delay: 0.75s;
 }
